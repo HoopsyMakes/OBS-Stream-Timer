@@ -7,7 +7,7 @@ function Home() {
 
   const buildCountdownUrl = (time: number) => {
     const basePath = import.meta.env.BASE_URL.replace(/\/$/, '')
-    return `${window.location.origin}${basePath}/countdown/${time}`
+    return `${window.location.origin}${basePath}#/countdown/${time}`
   }
 
   const submitTime = async () => {
