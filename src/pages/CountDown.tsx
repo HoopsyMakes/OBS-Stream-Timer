@@ -25,7 +25,7 @@ function CountDown() {
   const s = totalSeconds % 60;
 
   return (
-    <h1 className="clock">{h}:{m}:{s}</h1>
+    <h1 className="clock">{String(h).padStart(2, "0")}:{String(m).padStart(2, "0")}:{String(s).padStart(2, "0")}</h1>
   );
 }
 
