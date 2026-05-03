@@ -1,0 +1,11 @@
+.clock{
+  color: #f0c7ff;
+  font-family: Arial;
+  text-align: center;
+  margin-top: -50px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+}
